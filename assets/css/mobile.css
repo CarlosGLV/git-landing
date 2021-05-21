@@ -1,0 +1,170 @@
+@media screen and (max-width : 1440px) {
+	header .container,
+	section#offer .container,
+	footer .container {
+		padding-right: 3rem;
+		padding-left: 3rem;
+	}
+	section#opening {
+		padding: 10rem 0 8rem;
+		background-position: -80px 100%;
+	}
+	section#opening .info {
+		width: 50%;
+	}
+	section#newsletter form {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width : 1024px) {
+	html {
+		text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+		-ms-text-size-adjust: 100%;	
+	}
+	header {
+		padding-top: 1rem;
+		height: 100px;
+	}
+	header .container {
+		align-items: center;
+	}
+	header p img {
+		width: 5rem;
+		height: auto;
+	}
+	section#hero {
+		padding: 5rem 0 1rem;
+	}
+	section#opening {
+		padding: 5rem 0 2rem;
+		background-position: -100px 100%;
+	}
+	section#opening .info {
+		width: 60%;
+	}
+    section#newsletter {
+		background-size: 90% auto;
+	}
+	section#newsletter form {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width : 768px) {
+	header .container,
+	section#offer .container,
+	section#newsletter .container,
+	footer .container {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+	header ul {
+		display: block;
+	}
+	header ul li,
+	header ul li:first-child {
+		padding: 0.15rem 0;
+	}
+	header ul li img {
+		width: 4rem;
+		height: auto;
+	}
+	section#hero {
+		background-position: 180% 50%;
+	}
+	section#opening {
+		background-position: -180px 100%;
+	}
+	section#offer {
+		padding: 2rem 0;
+	}
+	section#offer p.close {
+		margin-bottom: 0.5rem;
+	}
+	section#offer p.countdown {
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+	}
+	section#newsletter {
+		padding: 2.5rem 0 5rem;
+	}
+	section#newsletter form {
+		width: 80%;
+	}
+	footer {
+		padding: 2.5rem 0;
+	}
+}
+
+@media screen and (max-width : 767px) {
+	section h1,
+	section h2,
+	section h3 {
+		font-size: 1.5rem;
+	}
+	header {
+		position; fixed;
+		height: 90px;
+		background: #FFF;
+	}
+	section#hero {
+		padding: 9rem 0 2rem;
+		background: #f3e9e7;
+	}
+	section#hero p img {
+		display: none;
+	}
+	section#opening {
+		padding: 2rem 0 15rem;
+		background-position: 50% 130%;
+		background-size: 350px auto;
+	}
+	section#opening .info {
+		width: 90%;
+	}
+	section#opening .info h2 {
+		text-align: center;
+	}
+	section#opening .info p {
+		text-align: center;
+	}
+	section#highlights ul li {
+		flex-basis: 50%;
+		width: 50%;
+	}
+	section#offer {
+		padding: 1rem 0 2em;
+	}
+	section#newsletter {
+		background-size: 150% auto;
+	}
+	section#newsletter form {
+		width: 100%;
+	}
+	section#newsletter form fieldset {
+		margin-top: 0;
+	}
+	section#newsletter form fieldset input {
+		margin-bottom: 1.125rem;
+	}
+	section#newsletter form fieldset input#user,
+	section#newsletter form fieldset input[type="submit"] {
+		flex-basis: 100%;
+		width: 100%;
+	}
+	section#newsletter form .alert p {
+		padding: 1rem;	
+	}
+}
+
+@media screen and (max-width : 320px) {
+	footer .contact p.copyright a {
+		display: block;
+	}
+	footer .contact p.copyright span {
+		display: none;
+	}
+}
+
